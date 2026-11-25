@@ -1,0 +1,1 @@
+The archived JavaScript is the previously served game module. The route excerpt is the server’s actual 410 response for practice mode. The editable React component in src/ is now the source for local builds.

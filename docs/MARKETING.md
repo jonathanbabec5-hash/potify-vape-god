@@ -20,4 +20,4 @@ Use `vape-god-first-public-build` for the pilot. Record a 28-day prelaunch basel
 
 Proposed pilot budget is $0 for distribution and two founder hours for the first demonstration. At day 7, inspect the biggest point of friction. At day 28, expand only if the target action was measured and the sales test produced identifiable demand. Report fulfilled sales net of refunds and direct costs. A product serving trust or internal operations may have no direct sales at all.
 
-**Prerequisite for external promotion.** Original editable Replit project and reward server are unavailable. Seeds are non-transferable. Draft copy and placements go through the existing approval process.
+**Prerequisite for external promotion.** Editable website-integrated game source is recovered. The server at the inspected website revision explicitly disables game Seed awards. A separate Replit workspace and any subsequent deployment still need parity checks. Draft copy and placements go through the existing approval process.

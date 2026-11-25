@@ -2,7 +2,7 @@
 
 [Complete repository directory tree](docs/DIRECTORY.md)
 
-**Recovered web client.** Give players a short, repeatable game inside the Greenhouse.
+**Editable original game client.** Give players a short, repeatable game inside the Greenhouse.
 
 ### Setup and usage
 
@@ -17,20 +17,20 @@ Finish one free round. Open http://127.0.0.1:5173 in a browser.
 
 ### Developer entry points
 
-The browser client runs the timed round and refers to a separate reward service. Art and the recovered client can be inspected independently of that service. Explore `art/`, `src/` in the full tree.
+The original React component runs the timed round. The server route in the inspected website revision returns HTTP 410 for game rewards and labels the game practice mode. Explore `art/`, `reference/`, `src/` in the full tree.
 
 ### Verification
 
-The client compiled with React and Vite. In local Chromium, Start Class opened a timed round with the Hold to Hit control. Reward delivery was outside the test.
+The editable React client compiled and the Start Class button opened a timed round. At the inspected website revision the reward route returns HTTP 410 and describes practice mode.
 
 ```sh
-node --check src/game.mjs
+node --check reference/game-served.mjs
 npm run build
 ```
 
 ### Release scope
 
-Original editable Replit project and reward server are unavailable. Seeds are non-transferable. potify-vape-god at `73825eeed54131a8abcb0dfec294c5b9cfdf0211`. Recovered first-party portion of the deployed client. Original served bundle SHA-256 40b76880c1cfe94facbcbd007594923fd22a598f191f33956d57849aae715cea. New Vite wrapper has no reward backend. Use a dedicated local origin.
+Editable website-integrated game source is recovered. The server at the inspected website revision explicitly disables game Seed awards. A separate Replit workspace and any subsequent deployment still need parity checks. Original VapeGod.tsx and reward-route excerpt from the owner-controlled potify-website main commit b40b28683e548a04619f1e018814dd91aec1256d. The older recovered client and original art are retained for comparison.
 
 [Technical whitepaper](docs/WHITEPAPER.md) · [Marketing and sales plan](docs/MARKETING.md) · [Dated developer log](docs/BUILD-LOG.md)
 

@@ -13,11 +13,17 @@ potify-vape-god/
 │   ├── MARKETING.md
 │   ├── WHITEPAPER.md
 │   └── source.json
+├── reference/
+│   ├── README.md
+│   ├── game-served.mjs
+│   └── reward-route.ts
 ├── src/
-│   └── game.mjs
+│   ├── VapeGod.tsx
+│   └── main.tsx
 ├── .gitignore
 ├── README.md
 ├── index.html
 ├── package-lock.json
-└── package.json
+├── package.json
+└── vite.config.mjs
 ```

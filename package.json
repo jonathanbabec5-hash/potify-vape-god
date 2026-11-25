@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
-    "check:public": "node --check src/game.mjs && npm run build"
+    "check:public": "node --check reference/game-served.mjs && npm run build"
   },
   "dependencies": {
     "react": "19.2.0",
