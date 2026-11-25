@@ -1,0 +1,7 @@
+{
+  "project": "Vape God",
+  "kind": "Recovered web client",
+  "source": "potify-vape-god at `73825eeed54131a8abcb0dfec294c5b9cfdf0211`. Recovered first-party portion of the deployed client. Original served bundle SHA-256 40b76880c1cfe94facbcbd007594923fd22a598f191f33956d57849aae715cea. New Vite wrapper has no reward backend. Use a dedicated local origin.",
+  "scope": "Original editable Replit project and reward server are unavailable. Seeds are non-transferable.",
+  "prepared": "2026-11-25"
+}
