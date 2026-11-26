@@ -2,6 +2,14 @@
 
 [Complete repository directory tree](docs/DIRECTORY.md)
 
+## Can a player tell why the round ended?
+
+Two minutes is a short time to learn a game. It is a long time to spend wondering what a button meant. Vape God’s most interesting design question comes at the end of a round: did the player understand what happened well enough to want a second try?
+
+The [editable game client](src/VapeGod.tsx) keeps the clock and input state; the [website reward route](reference/reward-route.ts) in this revision disables game rewards. The score starts with a session-dependent value. A screenshot alone cannot establish who played best.
+
+For an adult practice playtest, start one local round without coaching. Write down the control you discovered first, what ended the round and what you expected next. An unclear ending is useful feedback. This build does not announce a contest or offer token prizes.
+
 **Editable original game client.** Give players a short, repeatable game inside the Greenhouse.
 
 ### Setup and usage
