@@ -1,5 +1,13 @@
 # Vape God
 
+## Find your way in
+
+| If you are… | Start here | Try this |
+| --- | --- | --- |
+| A player | [Run the game locally](#setup-and-usage) | Try a practice round and note which controls are clear. |
+| A game developer | [Explore the game client](src/VapeGod.tsx) | Follow the clock and input state. |
+| A reviewer | [Inspect the reward route](reference/reward-route.ts) | Check the disabled reward behavior for this website revision. |
+
 [Complete repository directory tree](docs/DIRECTORY.md)
 
 ## Can a player tell why the round ended?
